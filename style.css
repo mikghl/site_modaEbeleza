@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.navbar, #footer {
+    background: #FFB6C1;
+}
+
+#cabeçalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #FFB6C1;
+}
+
+#cabeçalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover, 
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'GFS Didot', serif;
+    font-size: 36px;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 800px;
+}
+
+/*About*/
+
+.section-title {
+    font-family: 'GFS Didot', serif;
+}
+
+#home, #faq {
+    background-color: #ffe6f5;
+}
+
+.styleunic {
+    color: #454444;
+}
+
+/* Categories */
+
+.nav-cardapio .nav-link.active {
+    background-color: #FFB6C1;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #FFB6C1;
+}
+
+.text-colored {
+    color: #FFB6C1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #ff8e9d;
+    border-color: #ff8e9d;
+}
+
+.btn:hover {
+    background-color: #FFB6C1;
+    border-color: #FFB6C1;
+}
+
+
+/* FAQ */
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Responsividade */
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+        width: 100%;
+    }
+}
